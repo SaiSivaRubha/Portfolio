@@ -95,7 +95,7 @@ function Projects() {
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-white text-sm font-medium transition duration-300"
               >
-                View on GitHub →
+               
               </a>
             </div>
           </div>

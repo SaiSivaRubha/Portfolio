@@ -29,7 +29,7 @@ function Resume() {
         {/* Right Side - Image Preview */}
         <div className="rounded-2xl overflow-hidden shadow-2xl">
           <img
-            src="/resume preview.png"
+            src="/resume_preview.png"
             alt="Resume Preview"
             className="w-full rounded-xl"
           />
