@@ -24,6 +24,14 @@ function Projects() {
       github: "https://github.com/SaiSivaRubha/llm_question_and_answer_pdf",
       gradient: "from-cyan-500 to-blue-400",
     },
+     {
+      title: "Rail  Zenith",
+      description:
+        "Developed an intelligent railway passenger assistance system that predicts train delays, estimates arrival times, recommends an optimal cab reservation window, and provides an integrated cab reservation workflow with SMS confirmation.",
+      tech: ["FastAPI","Optuna Search","LightGBM","React.js","Twilio"],
+     
+      gradient: "from-cyan-500 to-blue-400",
+    }
   ];
 
   return (
