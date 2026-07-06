@@ -18,7 +18,7 @@ function Resume() {
           </p>
 
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download
             className="w-fit bg-gradient-to-r from-blue-500 to-purple-500 px-6 py-3 rounded-xl font-semibold hover:scale-105 transition duration-300 shadow-lg"
           >
@@ -29,7 +29,7 @@ function Resume() {
         {/* Right Side - Image Preview */}
         <div className="rounded-2xl overflow-hidden shadow-2xl">
           <img
-            src="/resume_preview.png"
+            src={`${import.meta.env.BASE_URL}resume_preview.png`}
             alt="Resume Preview"
             className="w-full rounded-xl"
           />
